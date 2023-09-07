@@ -1,59 +1,8 @@
-div{
-border-style: groove;  
-border-width: 10px;
-border-color: black;
-background-color: aqua;   
-padding: 10px;
-margin: 10px;
-width: 300px;
-display: inline-block;
-
-}
-img{
-    width: 100%;
-}
-body{
-    background-color: slategray;
-}
-.box{
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
-    border: 3px solid grey;
-    margin:20px;
-    display: inline-block;
-    border-radius: 50%;
-}
-.two{
+.container{
     background-color: aqua;
-    width: 200px;
-    height: 200px;
-    border: 3px solid grey;
-    margin:20px;
-    display: inline-block;
-    border-radius: 50%;
-}
-.fri{
-    background-color: brown;
-    width: 200px;
-    height: 200px;
-    border: 3px solid grey;
-    margin:20px;
-    display: inline-block;
-    border-radius: 50%;
-}
-#four{
-    background-color: brown;
-    width: 200px;
-    height: 200px;
-    border: 3px solid grey;
-    margin:20px;
-    display: inline-block;
-    border-radius: 50%;
-}
-#color{
-    background-color: brown;
-}
-.black{
-    background-color: black;
+    color: black;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
 }
