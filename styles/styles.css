@@ -1,8 +1,64 @@
-.container{
-    background-color: aqua;
-    color: black;
-    padding: 10px;
-    width: 400px;
-    height: 400px;
-    overflow-y: scroll;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.bagraund {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.imeges {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main {
+  position: absolute;
+  color: #926239;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
+.main h1 {
+  text-align: center;
+}
+.subtext {
+  text-align: center;
+}
+.button {
+  display: block;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background: transparent;
+  color: #926239;
+  border: 1px solid #926239;
+  margin: 0 auto;
+  margin-top: 35px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gold {
+  background-color: #926239;
+  color: #f4f4f4;
+  padding: 25px;
+}
+
+.white {
+  text-align: center;
+  padding: 25px 0 15px;
+  color: #926239;
+}
+
+.three p {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33%;
 }
